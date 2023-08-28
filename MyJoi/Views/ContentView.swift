@@ -14,26 +14,27 @@ import RealityKitContent
 // very cool
 
 struct ContentView: View {
-
+    
     @State private var showImmersiveSpace = false
     @State private var immersiveSpaceIsShown = false
-
+    
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
-
+    
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
+            
+           LandmarkList()
+                
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
                 .padding(.top, 50)
-        }
-        .padding()
-        .onChange(of: showImmersiveSpace) { _, newValue in
+            
+            Spacer()
+            
+            .padding()
+            .onChange(of: showImmersiveSpace) { _, newValue in
+            
             Task {
                 if newValue {
                     switch await openImmersiveSpace(id: "ImmersiveSpace") {
@@ -49,6 +50,7 @@ struct ContentView: View {
                     await dismissImmersiveSpace()
                     immersiveSpaceIsShown = false
                 }
+            }
             }
         }
     }

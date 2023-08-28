@@ -10,12 +10,15 @@ import SwiftUI
 @main
 struct MyJoiApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup(id: "content-view") {
             ContentView()
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
             ImmersiveView()
-        }.immersionStyle(selection: .constant(.full), in: .full)
+        }//.immersionStyle(selection: .constant(.full), in: .full)
+        
+        
     }
+
 }
