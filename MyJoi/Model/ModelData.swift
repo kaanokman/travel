@@ -4,20 +4,22 @@
 //
 //  Created by Kaan Okman on 2023-08-27.
 //
-
 import Foundation
+import Combine
 
-var landmarks: [Landmark] = load("landmarkData.json")
 
-// fecthes JSON data with a given name from the app's main bundle
-// relies on conformance of Decodable protocol which is a component of Codable assigned to the Landmark structure
+final class ModelData: ObservableObject {
+    @Published var landmarks: [Landmark] = load("landmarkData.json")
+}
+
+
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data
 
 
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
-    else {
-        fatalError("Couldn't find \(filename) in main bundle.")
+        else {
+            fatalError("Couldn't find \(filename) in main bundle.")
     }
 
 

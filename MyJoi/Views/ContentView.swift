@@ -25,12 +25,13 @@ struct ContentView: View {
         VStack {
             
            LandmarkList()
-                
+              
+            /*
             Toggle("Show Immersive Space", isOn: $showImmersiveSpace)
                 .toggleStyle(.button)
                 .padding(.top, 50)
             
-            Spacer()
+            //Spacer()
             
             .padding()
             .onChange(of: showImmersiveSpace) { _, newValue in
@@ -52,10 +53,13 @@ struct ContentView: View {
                 }
             }
             }
+            */
+             
         }
     }
 }
 
 #Preview(windowStyle: .automatic) {
-    ContentView()
+    ContentView().environmentObject(ModelData())
+
 }

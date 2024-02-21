@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct MyJoiApp: App {
+    
+    @StateObject private var modelData = ModelData()
+
     var body: some Scene {
         WindowGroup(id: "content-view") {
             ContentView()
+                .environmentObject(modelData)
+
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
