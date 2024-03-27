@@ -9,10 +9,6 @@ import SwiftUI
 import RealityKit
 import RealityKitContent
 
-// this is cool
-// this is also cool
-// very cool
-
 struct ContentView: View {
     
     @State private var showImmersiveSpace = false

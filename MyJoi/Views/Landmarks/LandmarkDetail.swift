@@ -20,17 +20,12 @@ struct LandmarkDetail: View {
     var body: some View {
         ScrollView {
     
-            
             ImageView(image: landmark.image)
                     //.frame(maxWidth: .infinity, maxHeight: 500)
                 //.frame(width: 300, height: 300, alignment: .topLeading)
                 
                 //.offset(y: -130)
                 .padding(.bottom, -20)
-                
-            
-    
-            
 
             VStack(alignment: .leading) {
                 HStack {
@@ -38,7 +33,6 @@ struct LandmarkDetail: View {
                         .font(.title)
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
-
 
                 HStack {
                     Text(landmark.park)
@@ -48,9 +42,7 @@ struct LandmarkDetail: View {
                 .font(.subheadline)
                 .foregroundColor(.secondary)
 
-
                 Divider()
-
 
                 Text("About \(landmark.name)")
                     .font(.title2)
