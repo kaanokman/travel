@@ -24,7 +24,7 @@
 		76F93F6C2A9A85F000963896 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 76F93F6B2A9A85F000963896 /* ImageBasedLighting.skybox */; };
 		76F93F6E2A9A85F800963896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F93F6D2A9A85F800963896 /* Assets.xcassets */; };
 		76F93F712A9A85F800963896 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F93F702A9A85F800963896 /* Preview Assets.xcassets */; };
-		76F93F7C2A9A85F800963896 /* MyJoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F7B2A9A85F800963896 /* MyJoiTests.swift */; };
+		76F93F7C2A9A85F800963896 /* TravelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F7B2A9A85F800963896 /* TravelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +58,7 @@
 		76F93F702A9A85F800963896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76F93F722A9A85F800963896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		76F93F772A9A85F800963896 /* TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		76F93F7B2A9A85F800963896 /* MyJoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJoiTests.swift; sourceTree = "<group>"; };
+		76F93F7B2A9A85F800963896 /* TravelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +134,7 @@
 			children = (
 				76F93F602A9A85F000963896 /* Travel */,
 				76F93F612A9A85F000963896 /* Packages */,
-				76F93F7A2A9A85F800963896 /* MyJoiTests */,
+				76F93F7A2A9A85F800963896 /* TravelTests */,
 				76F93F5F2A9A85F000963896 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -179,12 +179,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		76F93F7A2A9A85F800963896 /* MyJoiTests */ = {
+		76F93F7A2A9A85F800963896 /* TravelTests */ = {
 			isa = PBXGroup;
 			children = (
-				76F93F7B2A9A85F800963896 /* MyJoiTests.swift */,
+				76F93F7B2A9A85F800963896 /* TravelTests.swift */,
 			);
-			path = MyJoiTests;
+			path = TravelTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,7 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F93F7C2A9A85F800963896 /* MyJoiTests.swift in Sources */,
+				76F93F7C2A9A85F800963896 /* TravelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
