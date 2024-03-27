@@ -48,7 +48,7 @@
 		76EDD1282A9C315600FE1362 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		76EDD12A2A9C32EA00FE1362 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		76EDD12C2AA03E7F00FE1362 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
-		76F93F5E2A9A85F000963896 /* MyJoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F93F5E2A9A85F000963896 /* Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Travel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F93F622A9A85F000963896 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		76F93F652A9A85F000963896 /* TravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelApp.swift; sourceTree = "<group>"; };
 		76F93F672A9A85F000963896 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 		76F93F6D2A9A85F800963896 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76F93F702A9A85F800963896 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		76F93F722A9A85F800963896 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76F93F772A9A85F800963896 /* MyJoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyJoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76F93F772A9A85F800963896 /* TravelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F93F7B2A9A85F800963896 /* MyJoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJoiTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,8 +142,8 @@
 		76F93F5F2A9A85F000963896 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				76F93F5E2A9A85F000963896 /* MyJoi.app */,
-				76F93F772A9A85F800963896 /* MyJoiTests.xctest */,
+				76F93F5E2A9A85F000963896 /* Travel.app */,
+				76F93F772A9A85F800963896 /* TravelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -190,9 +190,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		76F93F5D2A9A85F000963896 /* MyJoi */ = {
+		76F93F5D2A9A85F000963896 /* Travel */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76F93F7F2A9A85F800963896 /* Build configuration list for PBXNativeTarget "MyJoi" */;
+			buildConfigurationList = 76F93F7F2A9A85F800963896 /* Build configuration list for PBXNativeTarget "Travel" */;
 			buildPhases = (
 				76F93F5A2A9A85F000963896 /* Sources */,
 				76F93F5B2A9A85F000963896 /* Frameworks */,
@@ -202,17 +202,17 @@
 			);
 			dependencies = (
 			);
-			name = MyJoi;
+			name = Travel;
 			packageProductDependencies = (
 				76F93F632A9A85F000963896 /* RealityKitContent */,
 			);
 			productName = MyJoi;
-			productReference = 76F93F5E2A9A85F000963896 /* MyJoi.app */;
+			productReference = 76F93F5E2A9A85F000963896 /* Travel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		76F93F762A9A85F800963896 /* MyJoiTests */ = {
+		76F93F762A9A85F800963896 /* TravelTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 76F93F822A9A85F800963896 /* Build configuration list for PBXNativeTarget "MyJoiTests" */;
+			buildConfigurationList = 76F93F822A9A85F800963896 /* Build configuration list for PBXNativeTarget "TravelTests" */;
 			buildPhases = (
 				76F93F732A9A85F800963896 /* Sources */,
 				76F93F742A9A85F800963896 /* Frameworks */,
@@ -223,9 +223,9 @@
 			dependencies = (
 				76F93F792A9A85F800963896 /* PBXTargetDependency */,
 			);
-			name = MyJoiTests;
+			name = TravelTests;
 			productName = MyJoiTests;
-			productReference = 76F93F772A9A85F800963896 /* MyJoiTests.xctest */;
+			productReference = 76F93F772A9A85F800963896 /* TravelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -247,7 +247,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 76F93F592A9A85F000963896 /* Build configuration list for PBXProject "MyJoi" */;
+			buildConfigurationList = 76F93F592A9A85F000963896 /* Build configuration list for PBXProject "Travel" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -260,8 +260,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				76F93F5D2A9A85F000963896 /* MyJoi */,
-				76F93F762A9A85F800963896 /* MyJoiTests */,
+				76F93F5D2A9A85F000963896 /* Travel */,
+				76F93F762A9A85F800963896 /* TravelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -320,7 +320,7 @@
 /* Begin PBXTargetDependency section */
 		76F93F792A9A85F800963896 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 76F93F5D2A9A85F000963896 /* MyJoi */;
+			target = 76F93F5D2A9A85F000963896 /* Travel */;
 			targetProxy = 76F93F782A9A85F800963896 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -513,7 +513,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJoi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyJoi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travel";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Debug;
@@ -534,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyJoi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyJoi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Travel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Travel";
 				XROS_DEPLOYMENT_TARGET = 1.0;
 			};
 			name = Release;
@@ -542,7 +542,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		76F93F592A9A85F000963896 /* Build configuration list for PBXProject "MyJoi" */ = {
+		76F93F592A9A85F000963896 /* Build configuration list for PBXProject "Travel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76F93F7D2A9A85F800963896 /* Debug */,
@@ -551,7 +551,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76F93F7F2A9A85F800963896 /* Build configuration list for PBXNativeTarget "MyJoi" */ = {
+		76F93F7F2A9A85F800963896 /* Build configuration list for PBXNativeTarget "Travel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76F93F802A9A85F800963896 /* Debug */,
@@ -560,7 +560,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		76F93F822A9A85F800963896 /* Build configuration list for PBXNativeTarget "MyJoiTests" */ = {
+		76F93F822A9A85F800963896 /* Build configuration list for PBXNativeTarget "TravelTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				76F93F832A9A85F800963896 /* Debug */,
