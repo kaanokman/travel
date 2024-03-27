@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct MyJoiApp: App {
+struct TravelApp: App {
     
     @StateObject private var modelData = ModelData()
 

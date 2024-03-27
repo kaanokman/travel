@@ -18,7 +18,7 @@
 		76EDD12B2A9C32EA00FE1362 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD12A2A9C32EA00FE1362 /* LandmarkDetail.swift */; };
 		76EDD12D2AA03E7F00FE1362 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EDD12C2AA03E7F00FE1362 /* FavoriteButton.swift */; };
 		76F93F642A9A85F000963896 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 76F93F632A9A85F000963896 /* RealityKitContent */; };
-		76F93F662A9A85F000963896 /* MyJoiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F652A9A85F000963896 /* MyJoiApp.swift */; };
+		76F93F662A9A85F000963896 /* TravelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F652A9A85F000963896 /* TravelApp.swift */; };
 		76F93F682A9A85F000963896 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F672A9A85F000963896 /* ContentView.swift */; };
 		76F93F6A2A9A85F000963896 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F93F692A9A85F000963896 /* ImmersiveView.swift */; };
 		76F93F6C2A9A85F000963896 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 76F93F6B2A9A85F000963896 /* ImageBasedLighting.skybox */; };
@@ -50,7 +50,7 @@
 		76EDD12C2AA03E7F00FE1362 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		76F93F5E2A9A85F000963896 /* MyJoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyJoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		76F93F622A9A85F000963896 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		76F93F652A9A85F000963896 /* MyJoiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyJoiApp.swift; sourceTree = "<group>"; };
+		76F93F652A9A85F000963896 /* TravelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelApp.swift; sourceTree = "<group>"; };
 		76F93F672A9A85F000963896 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		76F93F692A9A85F000963896 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		76F93F6B2A9A85F000963896 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		76F93F552A9A85F000963896 = {
 			isa = PBXGroup;
 			children = (
-				76F93F602A9A85F000963896 /* MyJoi */,
+				76F93F602A9A85F000963896 /* Travel */,
 				76F93F612A9A85F000963896 /* Packages */,
 				76F93F7A2A9A85F800963896 /* MyJoiTests */,
 				76F93F5F2A9A85F000963896 /* Products */,
@@ -148,10 +148,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		76F93F602A9A85F000963896 /* MyJoi */ = {
+		76F93F602A9A85F000963896 /* Travel */ = {
 			isa = PBXGroup;
 			children = (
-				76F93F652A9A85F000963896 /* MyJoiApp.swift */,
+				76F93F652A9A85F000963896 /* TravelApp.swift */,
 				76EDD1232A9C2C7100FE1362 /* Views */,
 				76EDD1242A9C2C9A00FE1362 /* Model */,
 				76EDD1252A9C2CA300FE1362 /* Resources */,
@@ -160,7 +160,7 @@
 				76F93F722A9A85F800963896 /* Info.plist */,
 				76F93F6F2A9A85F800963896 /* Preview Content */,
 			);
-			path = MyJoi;
+			path = Travel;
 			sourceTree = "<group>";
 		};
 		76F93F612A9A85F000963896 /* Packages */ = {
@@ -299,7 +299,7 @@
 				76EDD1292A9C315600FE1362 /* LandmarkList.swift in Sources */,
 				76EDD12D2AA03E7F00FE1362 /* FavoriteButton.swift in Sources */,
 				76068E7B2AA2C7990018FF0B /* LoginView.swift in Sources */,
-				76F93F662A9A85F000963896 /* MyJoiApp.swift in Sources */,
+				76F93F662A9A85F000963896 /* TravelApp.swift in Sources */,
 				76F93F6A2A9A85F000963896 /* ImmersiveView.swift in Sources */,
 				76EDD1202A9C296200FE1362 /* Landmark.swift in Sources */,
 				76EDD12B2A9C32EA00FE1362 /* LandmarkDetail.swift in Sources */,
